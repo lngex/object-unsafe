@@ -1,9 +1,5 @@
 package cn.lingex.unsafe;
 
-import java.io.File;
-import java.io.InputStream;
-import java.nio.file.Files;
-
 /**
  * @BelongsProject: java-object-offset
  * @BelongsPackage: cn.lingex.offset

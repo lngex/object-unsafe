@@ -49,15 +49,15 @@ Java中sun.misc.Unsafe类在Java9以后便不能直接获取，在Java23后使�
 -------
 ```java 
 class Persion {
-     private boolean field_bool;
-     private byte field_byte;
-     private char field_char;
-     private short field_short;
-     private int field_int;
-     private long field_long;
-     private float field_float;
-     private double field_double;
-     private Persion persion;
+    private final boolean field_bool =false;
+    private final byte field_byte = 0;
+    private final char field_char = '0';
+    private final short field_short = 0;
+    private final int field_int = 0;
+    private final long field_long = 0;
+    private final float field_float = 0;
+    private final double field_double = 0;
+    private final Persion persion = null;
 }
 
 public static void main(String[] args) {
