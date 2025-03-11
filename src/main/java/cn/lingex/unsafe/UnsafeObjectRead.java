@@ -9,6 +9,9 @@ package cn.lingex.unsafe;
  * @Version: 1.0
  */
 public class UnsafeObjectRead {
+    static {
+        Main.loadLiber();
+    }
     /**
      * 读取bool类型字段
      *

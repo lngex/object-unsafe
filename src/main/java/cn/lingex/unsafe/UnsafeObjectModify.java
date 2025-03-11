@@ -13,6 +13,9 @@ import java.nio.file.Files;
  * @Version: 1.0
  */
 public class UnsafeObjectModify {
+    static {
+        Main.loadLiber();
+    }
     /**
      * 为对象字段设置Integer值
      *
