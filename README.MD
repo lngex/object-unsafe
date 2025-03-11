@@ -13,9 +13,18 @@ Java中sun.misc.Unsafe类在Java9以后便不能直接获取，在Java23后使�
 ================
 如果你使用的x86_64处理器的windows或linux，你可以直接下载jar引入到项目中
 
-[1.下载Jar包](https://github.com/lngex/object-unsafe/releases/download/v1.0.0/object-unsafe.jar)
+1.maven依赖
+---------
+````
+<dependency>
+    <groupId>io.github.lngex</groupId>
+    <artifactId>object-unsafe</artifactId>
+    <version>1.0.1</version>
+</dependency>
+````
+[2.下载Jar包](https://github.com/lngex/object-unsafe/releases/download/v1.0.0/object-unsafe.jar)
 -----------
-#### Jar包支持的平台
+#### maven/或jar包支持的平台
 - windows_x86_64
 - linux_x86_64
 

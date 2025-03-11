@@ -17,6 +17,10 @@ public class Main {
         private final Persion persion = null;
     }
 
+    static class Test{
+        private final int a = 12;
+    }
+
     public static void main(String[] args) {
         Persion persion = new Persion();
         // 赋值
