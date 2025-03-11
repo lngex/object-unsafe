@@ -1,16 +1,12 @@
 package cn.lingex.unsafe;
 
+
 /**
- * @BelongsProject: java-object-offset
- * @BelongsPackage: cn.lingex.unsafe
- * @Author: liao jian bo
- * @CreateTime: 2025-03-11  09:03
- * @Description: 对象属性读取
- * @Version: 1.0
+ * @author liao jian bo
  */
 public class UnsafeObjectRead {
     static {
-        Main.loadLiber();
+        Main.loadLib();
     }
     /**
      * 读取bool类型字段

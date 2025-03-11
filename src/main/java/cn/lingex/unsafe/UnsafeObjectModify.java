@@ -1,16 +1,12 @@
 package cn.lingex.unsafe;
 
+
 /**
- * @BelongsProject: java-object-offset
- * @BelongsPackage: cn.lingex.offset
- * @Author: liao jian bo
- * @CreateTime: 2025-03-10  10:38
- * @Description: 替换Unsafe用的put方法
- * @Version: 1.0
+ * @author liao jian bo
  */
 public class UnsafeObjectModify {
     static {
-        Main.loadLiber();
+        Main.loadLib();
     }
     /**
      * 为对象字段设置Integer值
